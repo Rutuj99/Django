@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    {% if firstday %}
+    <h1>WHITE</h1>
+    {% elif secondday %}
+    <h1>RED</h1>
+    {% elif thirdday %}
+    <h1>ROYAL BLUE</h1>
+    {% elif fourthday %}
+    <h1>YELLOW</h1>
+    {% elif fifthday %}
+    <h1>GREEN</h1>
+    {% elif sixthday %}
+    <h1>GREY</h1>
+    {% elif seventhday %}
+    <h1>ORANGE</h1>
+    {% elif eighthday %}
+    <h1>PEACOCK GREEN</h1>
+    {% elif ninthday %}
+    <h1>PINK</h1>
+    {% else %}
+    <ol>
+        <li>September 26 2022 - WHITE</li>
+        <li>September 27 2022 - RED</li>
+        <li>September 28 2022 - ROYAL BLUE</li>
+        <li>September 29 2022 - YELLOW</li>
+        <li>September 30 2022 - GREEN</li>
+        <li>October 1 2022 - GREY</li>
+        <li>October 2 2022 - ORANGE</li>
+        <li>October 3 2022 - PEACOCK GREEN</li>
+        <li>October 4 2022 - PINK</li>
+    </ol>
+    {% endif %}
+</body>
+
+</html>
